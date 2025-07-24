@@ -2,7 +2,7 @@
     <section v-for="(block, index) in content" :key="index" :class="block.style_non ? 'component-non' : 'component'">
         <article>
             <h2 v-if="block.title">{{ block.title }}</h2>
-            <p v-if="block.content" v-html="block.content"></p>
+            <p v-if="block.content" v-html="formatHtml(block.content)"></p>
 
             <img v-if="block.image" :src="block.image" alt="" />
         </article>
@@ -13,6 +13,9 @@
 import { ref, onMounted } from 'vue'
 
 const content = ref([])
+const formatHtml = (text) => {
+    return text?.replace(/\n/g, '<br/>') || ''
+}
 
 onMounted(async () => {
     try {

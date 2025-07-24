@@ -4,7 +4,7 @@
       <div class="content">
         <h1 v-if="section.title">{{ section.title }}</h1>
         <h2 v-if="section.subtitle">{{ section.subtitle }}</h2>
-        <p v-if="section.content" v-html="section.content"></p>
+        <p v-if="section.content" v-html="formatHtml(section.content)"></p>
       </div>
       <img v-if="section.image" :src="section.image" alt="" />
     </article>
@@ -15,6 +15,9 @@
 import { ref, onMounted } from 'vue'
 
 const sections = ref([])
+const formatHtml = (text) => {
+  return text?.replace(/\n/g, '<br/>') || ''
+}
 
 onMounted(async () => {
   try {
