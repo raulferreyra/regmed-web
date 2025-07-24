@@ -10,14 +10,24 @@
     "style_non": true
   },
   {
-    "title": "Descarga y Releases",
-    "content": "Puedes descargar la última versión desde GitHub Releases. Revisa el changelog para detalles de las versiones.",
+    "title": "Releases",
+    "content": "Puedes revisar las versiones desde GitHub Releases. Revisa el changelog para detalles de las versiones.",
+    "table": true,
+    "name_table": "ReleasesTable",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Descargas",
+    "content": "Puedes descargar la versión que necesites en esta tabla. Revisa el changelog para detalles de las versiones.",
     "table": true,
     "name_table": "DownloadTable",
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": false
+    "style_non": true
   },
   {
     "title": "Estructura del Proyecto",
@@ -27,7 +37,7 @@
     "tree": true,
     "name_tree": "ProjectTree",
     "image": "",
-    "style_non": true
+    "style_non": false
   },
   {
     "title": "Tecnologías Usadas",
@@ -37,7 +47,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": false
+    "style_non": true
   },
   {
     "title": "Cómo Ejecutar",
@@ -47,7 +57,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": true
+    "style_non": false
   },
   {
     "title": "Casos de Uso",
@@ -57,7 +67,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": false
+    "style_non": true
   },
   {
     "title": "Seguridad",
@@ -67,7 +77,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": true
+    "style_non": false
   },
   {
     "title": "Planes Futuros",
@@ -77,7 +87,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": false
+    "style_non": true
   },
   {
     "title": "Licencia",
@@ -87,7 +97,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": true
+    "style_non": false
   },
   {
     "title": "Soporte y Reporte de Errores",
@@ -97,7 +107,7 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": false
+    "style_non": true
   },
   {
     "title": "Desarrollador",
@@ -107,6 +117,6 @@
     "tree": false,
     "name_tree": "",
     "image": "",
-    "style_non": true
+    "style_non": false
   }
 ]
