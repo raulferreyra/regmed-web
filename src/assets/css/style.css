@@ -55,7 +55,7 @@ section article {
   font-family: var(--font-main);
   background-color: var(--neutral-bg);
   color: var(--dark-text);
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
   line-height: 1.6;
 }
 
@@ -64,11 +64,8 @@ section article {
    ========================= */
 .component {
   background-color: white;
-  padding: 2rem;
-  border-left: 6px solid var(--primary-blue);
-  margin-bottom: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem 2rem 4rem;
+  margin: 0;
 }
 
 /* =========================
@@ -76,12 +73,8 @@ section article {
    ========================= */
 .component-non {
   background-color: #e8f2fa;
-  /* variante del azul salud como fondo */
-  padding: 2rem;
-  border-left: 6px solid var(--success-green);
-  margin-bottom: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem 2rem 4rem;
+  margin: 0;
 }
 
 /* =========================
