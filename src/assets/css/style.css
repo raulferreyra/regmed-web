@@ -39,6 +39,7 @@ body {
 section {
   padding: 1rem;
   margin: 1rem 0;
+  box-sizing: border-box;
   width: 100%;
   height: auto;
 }
@@ -56,6 +57,7 @@ section article {
   background-color: var(--neutral-bg);
   color: var(--dark-text);
   padding: 2rem 2rem 4rem;
+  box-sizing: border-box;
   line-height: 1.6;
 }
 
@@ -65,6 +67,7 @@ section article {
 .component {
   background-color: white;
   padding: 2rem 2rem 4rem;
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -74,6 +77,8 @@ section article {
 .component-non {
   background-color: #e8f2fa;
   padding: 2rem 2rem 4rem;
+  box-sizing: border-box;
+  text-align: right;
   margin: 0;
 }
 
@@ -90,6 +95,7 @@ section article {
 .component-table th,
 .component-table td {
   padding: 0.75rem 1rem;
+  box-sizing: border-box;
   border-bottom: 1px solid var(--light-border);
   text-align: left;
 }
@@ -108,6 +114,7 @@ section article {
   color: #c9d1d9;
   font-family: 'Courier New', monospace;
   padding: 1.5rem;
+  box-sizing: border-box;
   border-radius: 10px;
   overflow-x: auto;
   font-size: 0.95rem;
