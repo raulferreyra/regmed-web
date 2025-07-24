@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Características",
+    "content": "- Registro de pacientes con cifrado AES-128\n- Login seguro para el profesional médico\n- Base de datos local (SQLite)\n- Interfaz JavaFX limpia\n- Releases por GitHub\n- Auditoría\n- Sin necesidad de APIs o servidores",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": true
+  },
+  {
+    "title": "Descarga y Releases",
+    "content": "Puedes descargar la última versión desde GitHub Releases. Revisa el changelog para detalles de las versiones.",
+    "table": true,
+    "name_table": "DownloadTable",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Estructura del Proyecto",
+    "content": "Estructura simplificada del sistema RegMed.",
+    "table": false,
+    "name_table": "",
+    "tree": true,
+    "name_tree": "ProjectTree",
+    "image": "",
+    "style_non": true
+  },
+  {
+    "title": "Tecnologías Usadas",
+    "content": "- Java 24\n- JavaFX 24\n- SQLite\n- Maven\n- AES (javax.crypto)\n- GitHub Releases",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Cómo Ejecutar",
+    "content": "1. Tener Java 24, Maven y JavaFX 24.\n2. Ejecutar: mvn clean install && mvn javafx:run\n3. Crear usuario médico si es primera vez.",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": true
+  },
+  {
+    "title": "Casos de Uso",
+    "content": "- Consultorios sin infraestructura\n- Zonas rurales sin internet\n- Profesionales independientes\n- Clínicas pequeñas",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Seguridad",
+    "content": "- AES-128 CBC\n- Sin texto plano\n- Contraseña de 6 dígitos\n- Auditoría de cambios",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": true
+  },
+  {
+    "title": "Planes Futuros",
+    "content": "- Exportación/Importación cifrada\n- Backups automáticos\n- Multiusuario local",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Licencia",
+    "content": "MIT. Puedes usar, modificar y compartir el código sin restricciones. ¡Se agradece cualquier colaboración!",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": true
+  },
+  {
+    "title": "Soporte y Reporte de Errores",
+    "content": "Puedes crear Issues o Pull Requests. Toda colaboración es bienvenida.",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": false
+  },
+  {
+    "title": "Desarrollador",
+    "content": "Nombre: Raúl Ferreyra\nEmail: raul.ferreyra@urasweb.com\nDonaciones: https://liberapay.com/elemento/",
+    "table": false,
+    "name_table": "",
+    "tree": false,
+    "name_tree": "",
+    "image": "",
+    "style_non": true
+  }
+]

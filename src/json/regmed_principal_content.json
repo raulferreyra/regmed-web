@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Historial Médico Local",
+    "subtitle": "RegMed - Historial Médico Local con Cifrado AES",
+    "content": "RegMed es una aplicación de escritorio desarrollada en JavaFX con SQLite, diseñada para consultorios o profesionales de la salud que desean registrar y acceder rápidamente a los historiales médicos de sus pacientes sin conexión a internet. Ideal para entornos donde no existe una solución digital institucional.",
+    "image": "",
+    "style_non": false
+  }
+]
