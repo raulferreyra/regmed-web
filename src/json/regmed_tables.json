@@ -1,0 +1,47 @@
+[
+    {
+        "title": "ReleasesTable",
+        "th": [
+            "tipo de Archivo",
+            "¿Para quién es?",
+            "¿Qué necesitas?"
+        ],
+        "td": [
+            {
+                "1": "RegMed.exe",
+                "2": "Usuarios finales, médicos, etc.",
+                "3": "¡Nada extra! Solo descarga y ejecuta."
+            },
+            {
+                "1": "regmed-1.0-SNAPSHOT-jar-with-dependencies.jar",
+                "2": "Usuarios técnicos/desarrolladores",
+                "3": "Tener Java 24 y JavaFX 24 instalados."
+            }
+        ]
+    },
+    {
+        "title": "DownloadTable",
+        "th": [
+            "Versión",
+            "Changelog"
+        ],
+        "td": [
+            {
+                "1": "v1.0.0.b",
+                "2": "Actualización sobre la versión estable del sistema RegMed."
+            },
+            {
+                "1": "<a target='_blank' href='/descargas/v1.0.0.b.exe'>Descargar</a>",
+                "2": "- Corrige la ubicación de la base de datos.\n- [Enter] para los botones \n- [F1] para abrir el AboutUs.\n- [F5] para buscar las actualizaciones.\n- Búsqueda de Actualizaciones.\n- Actualizaciones automáticas."
+            },
+            {
+                "1": "v1.0.0.a",
+                "2": "Usuarios finales, médicos, etc."
+            },
+            {
+                "1": "<a target='_blank' href='/descargas/v1.0.0.a.exe'>Descargar</a>",
+                "2": "- Genera una base de datos vacía.\n- Genera un primer usuario administrador.\n- Permite la creación y actualización de los usuarios para los administradores.\n- Permite la creación y actualización de los pacientes.\n- Permite la creación y actualización de los tratamientos de los pacientes.\n- Manejo de Sesiones.\n- Manejo de BAT y liberación de proyecto."
+            }
+        ]
+    }
+]
