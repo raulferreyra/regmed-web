@@ -1,0 +1,80 @@
+{
+  "name": "regmed",
+  "children": [
+    {
+      "name": "src",
+      "children": [
+        {
+          "name": "main",
+          "children": [
+            {
+              "name": "java",
+              "children": [
+                {
+                  "name": "com.regmed.regmed",
+                  "children": [
+                    {
+                      "name": "db",
+                      "note": "Conexión a la base de datos"
+                    },
+                    {
+                      "name": "util"
+                    },
+                    {
+                      "name": "users"
+                    },
+                    {
+                      "name": "patients"
+                    },
+                    {
+                      "name": "treatments"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "resources",
+              "children": [
+                {
+                  "name": "com.regmed.regmed",
+                  "children": [
+                    {
+                      "name": "util"
+                    },
+                    {
+                      "name": "users"
+                    },
+                    {
+                      "name": "patients"
+                    },
+                    {
+                      "name": "treatments"
+                    },
+                    {
+                      "name": "favicon.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pom.xml",
+      "note": "Configuración Maven"
+    },
+    {
+      "name": "README.md"
+    },
+    {
+      "name": "LICENSE.md"
+    },
+    {
+      "name": "regmend.db",
+      "note": "Base de datos local"
+    }
+  ]
+}
