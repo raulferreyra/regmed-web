@@ -111,7 +111,7 @@
   },
   {
     "title": "Desarrollador",
-    "content": "Nombre: Raúl Ferreyra\nEmail: raul.ferreyra@urasweb.com\nDonaciones: https://liberapay.com/elemento/",
+    "content": "Nombre: Raúl Ferreyra\nEmail: <a target='_blank' href='mailto:raul.ferreyra@urasweb.com'>raul.ferreyra@urasweb.com</a>\nDonaciones: <a href='https://liberapay.com/elemento/' target='_blank'>https://liberapay.com/elemento/</a>",
     "table": false,
     "name_table": "",
     "tree": false,
