@@ -27,12 +27,20 @@
         ],
         "td": [
             {
+                "1": "v1.0.0.c",
+                "2": "Actualización sobre la versión estable del sistema RegMed."
+            },
+            {
+                "1": "<a target='_blank' href='/descargas/RegMed_v1.0.0.c.exe'>Descargar .exe</a>\n<a target='_blank' href='/descargas/regmed-1.0.0.c-jar-with-dependencies.jar'>Descargar .jar</a>",
+                "2": "- Importar base de datos.\n- Exportar base de datos. \n- Mejora el control de los archivos encriptados.."
+            },
+            {
                 "1": "v1.0.0.b",
                 "2": "Actualización sobre la versión estable del sistema RegMed."
             },
             {
                 "1": "<a target='_blank' href='/descargas/RegMed_v1.0.0.b.exe'>Descargar .exe</a>\n<a target='_blank' href='/descargas/regmed-1.0.0.b-jar-with-dependencies.jar'>Descargar .jar</a>",
-                "2": "- Corrige la ubicación de la base de datos.\n- [Enter] para los botones \n- [F1] para abrir el AboutUs.\n- [F5] para buscar las actualizaciones.\n- Búsqueda de Actualizaciones.\n- Actualizaciones automáticas."
+                "2": "- Corrige la ubicación de la base de datos.\n- [Enter] para los botones. \n- [F1] para abrir el AboutUs.\n- [F5] para buscar las actualizaciones.\n- Búsqueda de Actualizaciones.\n- Actualizaciones automáticas."
             },
             {
                 "1": "v1.0.0.a",
